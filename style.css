@@ -1,0 +1,102 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #c0392b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  font-family: serif;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+th {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 0.5em;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+form input[type="text"], form textarea {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  width: 100%;
+}
+
+form input[type="submit"] {
+  background-color: #c0392b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+form input[type="submit"]:hover {
+  background-color: #b53225;
+}
+
+.post {
+  margin-bottom: 2em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.post-title {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.post-meta {
+  color: #aaa;
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.post-content {
+  margin-bottom: 0.5em;
+}
